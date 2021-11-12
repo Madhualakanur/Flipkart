@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart Application Test Automation Test Suite">
+	<test name=" Flipkart App Test Cases">
+		<classes>
+			<class name="com.flipkart.qa.testcases.LoginPageTest"></class>
+			<class name="com.flipkart.qa.testcases.HomePageTest"></class>
+			<class name="com.flipkart.qa.testcases.ItemPageTest"></class>
+			<class name="com.flipkart.qa.testcases.ProductDisplayPageTest"></class>
+			<class name="com.flipkart.qa.testcases.CheckOutPageTest"></class>
+
+		</classes>
+	</test>
+</suite>

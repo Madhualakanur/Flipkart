@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test name=" Flipkart App Test Cases(failed)">
+    <classes>
+      <class name="com.flipkart.qa.testcases.CheckOutPageTest">
+        <methods>
+          <include name="checkout"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.CheckOutPageTest -->
+    </classes>
+  </test> <!--  Flipkart App Test Cases(failed) -->
+</suite> <!-- Failed suite [Flipkart Application Test Automation Test Suite] -->
