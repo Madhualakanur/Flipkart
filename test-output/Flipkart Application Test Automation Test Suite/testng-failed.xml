@@ -3,6 +3,13 @@
 <suite name="Failed suite [Flipkart Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
   <test name=" Flipkart App Test Cases(failed)">
     <classes>
+      <class name="com.flipkart.qa.testcases.ProductDisplayPageTest">
+        <methods>
+          <include name="placeorder"/>
+          <include name="close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.ProductDisplayPageTest -->
       <class name="com.flipkart.qa.testcases.CheckOutPageTest">
         <methods>
           <include name="checkout"/>
@@ -10,6 +17,22 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.flipkart.qa.testcases.CheckOutPageTest -->
+      <class name="com.flipkart.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUserNameTest"/>
+          <include name="searchproductandSelect"/>
+          <include name="homePageTitleTest"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.HomePageTest -->
+      <class name="com.flipkart.qa.testcases.ItemPageTest">
+        <methods>
+          <include name="ItemPage"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.testcases.ItemPageTest -->
     </classes>
   </test> <!--  Flipkart App Test Cases(failed) -->
 </suite> <!-- Failed suite [Flipkart Application Test Automation Test Suite] -->

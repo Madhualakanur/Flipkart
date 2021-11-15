@@ -27,6 +27,9 @@ public class CheckOutPage extends TestBase {
 	@FindBy(xpath="//span[text()='Not a valid card number']")
 	WebElement notvalidcarderrormessage;
 	
+	@FindBy(xpath="//form[@class='_3MxixP']")
+	WebElement paynow;
+	
 
 	public CheckOutPage() throws IOException
 	{
@@ -44,6 +47,8 @@ public class CheckOutPage extends TestBase {
 	//cardnumber.sendKeys(map.get("Card_Number"));
 	cardnumber.sendKeys("0000000000");
 	Thread.sleep(1000);
+	paynow.click();
+	Thread.sleep(2000);
 	if(notvalidcarderrormessage.isDisplayed())
 	{
 		errorMessage = notvalidcarderrormessage.getText();

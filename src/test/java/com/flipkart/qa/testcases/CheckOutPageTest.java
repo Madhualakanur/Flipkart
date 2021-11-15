@@ -49,7 +49,7 @@ public class CheckOutPageTest extends TestBase
 	@Test(priority=1)
 	public void checkout() throws IOException, InterruptedException {
 		String message = (String) CheckOutPage.checkout();
-		Assert.assertEquals(message,"Not a valid card");
+		Assert.assertEquals(message,"Not a valid card number");
 	}
 	@AfterMethod
 	public void close()
